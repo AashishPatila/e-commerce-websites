@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
+import Product from "./components/Login/product";
 
 import { auth } from "./firebase";
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/" element={<Home name={userName} />} />
         </Routes>
       </Router>
+      <Product/>
     </div>
   );
 }

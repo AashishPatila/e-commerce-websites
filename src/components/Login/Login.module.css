@@ -54,7 +54,8 @@
 }
 
 .footer button:hover {
-  background-color: #aa2aff;
+  background-color: #2e6a7b;
+  color: white;
 }
 
 .footer p {
